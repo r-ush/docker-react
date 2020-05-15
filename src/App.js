@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          aaaa
         </p>
         <a
           className="App-link"
@@ -24,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+//docker run -it -p 3000:3000 -v /app/node_modules  -v $(pwd):/app 2b8966039788
